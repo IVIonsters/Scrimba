@@ -1,0 +1,128 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Happy+Monkey&display=swap');
+
+/* Variable Colors */
+:root {
+  --pink: #EFB0C9;
+  --blue: #a2d2ff;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Happy Monkey', sans-serif;
+  background: linear-gradient(var(--blue), var(--pink));
+  color: var(--white)
+}
+
+/* Container around hero section */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 1px black;
+}
+
+/* Head shot Styling */
+#headShot {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  border: 10px solid var(--pink);
+}
+
+/* age and birthday  */
+#birthdayAge {
+  background-color: var(--pink);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#birthdayDate {
+  background-color: var(--pink);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+/* Gift Section Container */
+.giftSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 2px 2px 1px black;
+}
+
+/* Main Gifts Styling */
+.giftHappy,
+.giftHot,
+.giftGenius,
+.giftBadass {
+  width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+/* Cheers gift styling */
+.giftCheers {
+  width: 400px;
+  height: 200px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+/* Gift Happy on Hover */
+.giftHappy:hover {
+  background-image: url("images/happy.gif");
+}
+
+/* Gift Hot on Hover */
+.giftHot:hover {
+  background-image: url("images/hot.gif");
+}
+
+/* Gift Genius on Hover */
+.giftGenius:hover {
+  background-image: url("images/genius.gif");
+}
+
+/* Gift Hot on Hover */
+.giftBadass:hover {
+  background-image: url("images/badass.gif");
+}
+
+/* Gift CHeers on Hover */
+.giftCheers:hover {
+  background-image: url("images/cheers.gif");
+}
+
+/* Footer Styling */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+  text-shadow: 2px 2px 1px black;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* Scrimba Link */
+#scrimbaLink {
+  color: var(--white)
+}
