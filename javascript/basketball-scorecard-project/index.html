@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <nav>
+          <h1>Welcome To Our Game</h1>
+      </nav>
+      <div class="timerContainer">
+        <div id="timer">10:00</div>
+      </div>
+      <div class="mainContainer">
+        <div class="homeContainer card">
+          <div>Home</div>
+          <div id="home-score" class="homeScoreContainer"></div>
+          <div class="homeButtonsContainer">
+            <button class="addButton" onclick="singlePointHome()">+ 1</button>
+            <button class="addButton" onclick="twoPointsHome()">+ 2</button>
+            <button class="addButton" onclick="threePointsHome()">+ 3</button>
+          </div>
+        </div>
+        <div class="awayContainer card">
+          <div>Away</div>
+          <div id="away-score" class="awayScoreContainer"></div>
+          <div class="awayButtonsContainer">
+            <button class="addButton" onclick="singlePointAway()">+ 1</button>
+            <button class="addButton" onclick="twoPointsAway()">+ 2</button>
+            <button class="addButton" onClick="threePointsAway()">+ 3</button>
+          </div>
+        </div>
+      </div>
+      <div class="footerContainer">
+        <!-- Other content -->
+        <div class="footer">
+          <button class="resetButton" onclick="reset()">Reset</button>
+        </div>
+      </div>
+        <script src="index.js"></script>
+    </body>
+</html>

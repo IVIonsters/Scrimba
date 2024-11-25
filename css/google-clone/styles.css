@@ -1,0 +1,48 @@
+/* Container */
+.container {
+  margin-top: 25%;
+}
+
+/* Google Image */
+img {
+  display: block;
+  /* Make the image a block element generally means they stack vertically */
+  width: 300px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Button Container */
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Input Field */
+.userInput {
+  display: block;
+  width: 400px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+}
+
+/* Google Search Button */
+.btn {
+  margin-top: 20px;
+  margin-right: 4px;
+  margin-left: 4px;
+  font-size: 1.2rem;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #dfe1e5;
+}
