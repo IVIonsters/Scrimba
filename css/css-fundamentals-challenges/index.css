@@ -27,11 +27,20 @@ h1 {
 
 h2 {
   font-size: 42px;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 20px 0;
 }
 
 h3 {
   font-size: 36px;
   font-weight: 900;
+}
+
+/* Name and Time in lowest section */
+.name,
+time {
+  color: #99D930;
 }
 
 /* Paragraph under written by Sophie */
@@ -44,6 +53,7 @@ h3 {
   font-size: 80px;
   font-weight: 900;
   display: block;
+  color: #99D930;
 }
 
 /* graphic designer, article */
@@ -51,6 +61,7 @@ h3 {
   font-size: 60px;
   font-weight: 900;
   display: block;
+  color: #99D930;
 }
 
 /* upper section Hello, my name is */
@@ -90,4 +101,19 @@ a {
 a:hover {
   color: #131313;
   border-bottom: 2px solid #131313;
+}
+
+/* see my work "button" links */
+.linkButtons {
+  background-color: #99d930;
+  border: none;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.linkButtons:hover {
+  background-color: #fff;
+  color: #252525;
 }
