@@ -1,0 +1,115 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #000000;
+}
+
+/* header logo */
+.headerLogo {
+  width: 20%;
+  margin-left: 20px;
+}
+
+/* user avatar */
+.userAvatar {
+  width: 8%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* artist avatar */
+.artistAvatar {
+  width: 8%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* Container for artist info */
+.artistInfo {
+  display: flex;
+  align-items: center;
+}
+
+/* Container for artist text */
+.artistText {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Artist name */
+.artistName {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Artist location */
+.artistLocation {
+  font-size: 1em;
+  color: #808080;
+}
+
+/* Post Image */
+.postImage {
+  width: 100%;
+}
+
+/* Icon Sizing */
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* likes */
+.likes {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* comments */
+.postDescription {
+  font-size: 1em;
+}
+
+/* Container for post text */
+.postText {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.postDescription {
+  font-size: 1em;
+}
+
+.username,
+.postDescription {
+  margin-top: 20px;
+}
