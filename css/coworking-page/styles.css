@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Body Features */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #282828;
+  color: whitesmoke;
+}
+
+/* WeWork in header  */
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ul in header section */
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 25px;
+}
+
+/* icon in header */
+.icon {
+  width: 25px;
+  padding-left: 10px;
+}
+
+/* best coworking */
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 25px 30px;
+}
+
+/* caption on photos */
+.caption {
+  margin: 25px 0;
+}
