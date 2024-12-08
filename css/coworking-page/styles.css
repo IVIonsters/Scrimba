@@ -23,25 +23,66 @@ header {
 /* ul in header section */
 nav ul {
   display: flex;
+  list-style-type: none;
   align-items: center;
-  list-style: none;
+  margin: 0;
   padding: 25px;
+  gap: 10px
 }
 
 /* icon in header */
 .icon {
   width: 25px;
-  padding-left: 10px;
+}
+
+/* header menu hamburger bar */
+.align-right {
+  margin-left: auto;
 }
 
 /* best coworking */
 h1 {
   font-size: 40px;
   font-weight: 400;
-  margin: 25px 30px;
+  margin: 30px 25px;
 }
 
 /* caption on photos */
 .caption {
-  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+  gap: 20px;
+}
+
+/* item for Exclusive */
+.item {
+  position: relative;
+}
+
+/* item images */
+.item-img {
+  width: 100%;
+  display: block;
+}
+
+/* Exclusive banner */
+.img-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+/* button styling */
+button {
+  border: none;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px 15px;
+  font-weight: 700;
+  cursor: pointer;
+  align-self: center;
 }
