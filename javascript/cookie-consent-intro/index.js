@@ -1,4 +1,6 @@
+const modal = document.getElementById('modal');
+
 setTimeout(() => {
-  console.log('Modal Opened');
+  modal.style.display = 'block';
 }, 1500);
 
