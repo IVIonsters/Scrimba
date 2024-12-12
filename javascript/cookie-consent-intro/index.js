@@ -9,3 +9,9 @@ modalClose.addEventListener('click', () => {
   modal.style.display = 'none';
 });
 
+const formId = document.getElementById('consent-form')
+
+formId.addEventListener('submit', (e) => {
+  e.preventDefault();
+  console.log('Form submitted');
+});
