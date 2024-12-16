@@ -7,11 +7,15 @@ let quantity = 0
 
 decrement.addEventListener('click', function () {
   quantity--
+  if (quantity === 0) {
+    decrement.disabled = true
+  }
   quantityDisplay.innerText = quantity
 })
 
 increment.addEventListener('click', function () {
   quantity++
+  decrement.disabled = false
   quantityDisplay.innerText = quantity
 })
 
