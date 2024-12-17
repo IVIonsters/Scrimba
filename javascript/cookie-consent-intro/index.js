@@ -58,10 +58,13 @@ consentForm.addEventListener('submit', function (e) {
 // grab decline button element
 const declineBtn = document.getElementById('decline-btn')
 
+// grab container element
+const modalBtn = document.getElementById('modal-choice-btns')
 // add event listener to decline button
-declineBtn.addEventListener('mouseenter', () => {
-  console.log('hovered over decline button')
-})
 
+declineBtn.addEventListener('mouseenter', () => {
+  modalBtn.classList.toggle('modalReverse')
+  console.log('decline button hovered')
+})
 
 
