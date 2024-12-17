@@ -11,12 +11,20 @@ decrement.addEventListener('click', function () {
     decrement.disabled = true
   }
   quantityDisplay.innerText = quantity
+  // if statement for add to cart
+  if (quantity === 0) {
+    cartBtn.disabled = true
+  }
 })
 
 increment.addEventListener('click', function () {
   quantity++
   decrement.disabled = false
   quantityDisplay.innerText = quantity
+  // if statement for add to cart
+  if (quantity > 0) {
+    cartBtn.disabled = false
+  }
 })
 
 cartBtn.addEventListener('click', function () {

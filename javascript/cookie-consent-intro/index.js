@@ -30,10 +30,12 @@ consentForm.addEventListener('submit', function (e) {
       <img src="images/loading.svg" class="loading">
       <p id="upload-text">Uploading your data to the dark web...</p>
   </div>`
+
   // Set a timeout to simulate the upload process
   setTimeout(function () {
     document.getElementById("upload-text").innerText = "Making the sale..."
   }, 1500)
+
   // Set a timeout to replace the modal text after 3 seconds
   setTimeout(function () {
     document.getElementById("modal-inner").innerHTML = `<h2>Thanks <span class="modal-display-name">${fullName}</span>, you sucker! </h2>
@@ -43,6 +45,23 @@ consentForm.addEventListener('submit', function (e) {
     </div>
     `
   }, 3000)
+
+  // Enable modal button X
+  const modalCloseBtn = document.getElementById('modal-close-btn')
+
+  // set timeout to display X to close modal after 7 seconds
+  setTimeout(() => {
+    modalCloseBtn.disabled = false
+  }, 4500)
 });
+
+// grab decline button element
+const declineBtn = document.getElementById('decline-btn')
+
+// add event listener to decline button
+declineBtn.addEventListener('mouseenter', () => {
+  console.log('hovered over decline button')
+})
+
 
 
